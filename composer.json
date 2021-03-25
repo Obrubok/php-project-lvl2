@@ -1,0 +1,17 @@
+{
+    "name": "hexlet/code",
+    "description": "Hexlet php project 2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Sh",
+            "email": "AlexeyShv992@gmail.com"
+        }
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    },
+    "bin": [
+        "bin/gendiff"
+    ]
+}
