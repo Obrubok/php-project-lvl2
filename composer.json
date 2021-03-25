@@ -13,5 +13,10 @@
     },
     "bin": [
         "bin/gendiff"
-    ]
+    ],
+    "autoload": {
+        "files": [
+            "src/Run.php"
+        ]
+    }
 }

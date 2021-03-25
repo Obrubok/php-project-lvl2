@@ -3,18 +3,6 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-$doc = <<<'DOCOPT'
+use function Gen\Diff\Run\run;
 
-Generate diff
-
-Usage:
-  gendiff (-h|--help)
-  gendiff (-v|--version)
-
-Options:
-  -h --help                     Show this screen
-  -v --version                  Show version
-DOCOPT;
-
-$args = Docopt::handle($doc);
-echo $args;
+run();
