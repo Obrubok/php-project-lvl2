@@ -2,3 +2,5 @@
 /.idea/
 /tst.php
 /debug/
+logs
+build
