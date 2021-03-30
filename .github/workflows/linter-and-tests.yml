@@ -36,3 +36,8 @@ jobs:
     #   run: composer run-script test
     - name: Run linter
       run: make lint
+    - name: Run test & publish code coverage
+      uses: paambaati/codeclimate-action@v2.7.5
+      env:
+        CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+      
