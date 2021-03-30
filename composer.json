@@ -11,12 +11,19 @@
     "require": {
         "docopt/docopt": "^1.0"
     },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "scripts": {
+        "phpcs": "./vendor/bin/phpcs"
+    },
     "bin": [
         "bin/gendiff"
     ],
     "autoload": {
         "files": [
-            "src/Run.php"
+            "src/Runner.php",
+            "src/Differ.php"
         ]
     }
 }

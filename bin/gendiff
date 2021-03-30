@@ -3,6 +3,6 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use function Gen\Diff\Run\run;
+use function Gen\Diff\Runner\run;
 
 run();

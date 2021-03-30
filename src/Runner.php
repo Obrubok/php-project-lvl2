@@ -1,6 +1,8 @@
 <?php
 
-namespace Gen\Diff\Run;
+namespace Gen\Diff\Runner;
+
+use function Gen\Diff\Differ\genDiff;
 
 function run()
 {
@@ -20,5 +22,8 @@ Options:
 DOCOPT;
 
     $args = \Docopt::handle($doc);
-    echo $args;
+    $firstFile = $args['<firstFile>'];
+    $secondFile = $args['<secondFile>'];
+    $diff = genDiff($firstFile, $secondFile);
+    echo $diff;
 }

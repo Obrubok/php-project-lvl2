@@ -1,2 +1,4 @@
 /vendor/
 /.idea/
+/tst.php
+/debug/
