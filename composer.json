@@ -16,7 +16,8 @@
         "phpunit/phpunit": "^9.5"
     },
     "scripts": {
-        "phpcs": "./vendor/bin/phpcs"
+        "phpcs": "phpcs",
+        "phpunit": "phpunit tests"
     },
     "bin": [
         "bin/gendiff"
