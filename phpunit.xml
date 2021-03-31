@@ -13,5 +13,10 @@
         <include>
             <directory suffix=".php">./src</directory>
         </include>
+        <exclude>
+            <file>
+                src/Runner.php
+            </file>
+        </exclude>
     </coverage>
 </phpunit>

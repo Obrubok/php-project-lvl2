@@ -4,4 +4,4 @@
 /debug/
 logs
 build
-tests
+*.cache

@@ -23,6 +23,9 @@
         "bin/gendiff"
     ],
     "autoload": {
+        "psr-4": {
+            "Gen\\Diff\\Tests\\": "tests"
+        },
         "files": [
             "src/Runner.php",
             "src/Differ.php"
